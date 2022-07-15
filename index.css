@@ -1,0 +1,121 @@
+html {
+  font-size: 12px;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  background-color: #403b1d;
+}
+.background {
+  position: relative;
+  height: 100%;
+  padding: 5% 2% 25%;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5c59e7b1fb22a5343b926b4a/1551220017585-8C0R9CXWPU46968ELRDT/IMG_2796.jpg?format=1500w);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 15%;
+}
+footer {
+  text-align: center;
+  color: #bdb6ce;
+}
+.footerInfo {
+  list-style-type: none;
+}
+header {
+  padding: 1%;
+  text-align: center;
+  font-family: "Shadows Into Light Two", cursive;
+  color: #403b1d;
+}
+h1 {
+  font-size: 2rem;
+  padding: 0%;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+h2,
+h3 {
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: 400;
+  padding: 0%;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 0.75rem;
+}
+main {
+  width: 100%;
+  position: absolute;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+  /*background-color: #948d94;
+  background-color: #c49053;*/
+}
+.navOptions {
+  padding: 1%;
+  text-decoration: none;
+  color: #c49053;
+}
+p {
+  position: absolute;
+  left: 25%;
+  color: #c49053;
+}
+ul {
+  list-style-type: none;
+}
+/* sm (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+  .background {
+    padding: 5% 2% 25%;
+  }
+  /*body {
+    background-color: gray;
+  }*/
+}
+/* med (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .background {
+    padding: 5% 2% 30%;
+  }
+  /*body {
+    background-color: darkred;
+  }*/
+}
+/* lrg (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+  .background {
+    padding: 5% 2% 25%;
+  }
+  /*body {
+    background-color: darkgreen;
+  }*/
+}
+/* xl (lrg laptops/desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+  .background {
+    padding: 5% 2% 20%;
+  }
+  /*body {
+    background-color: darkblue;
+  }*/
+}
